@@ -1,0 +1,109 @@
+{
+    "name": "DpadPlayerActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "7f2cef82-fbe4-4929-a026-12d5b3d813af",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "d8b79299-e281-4859-96cf-19a4e043a092",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=1.401298E-45,behavior=1),Hold(pressPoint=1.401298E-45)"
+                },
+                {
+                    "name": "AButton",
+                    "type": "Button",
+                    "id": "ac89fb18-c271-48b2-85b8-df40d427ff5a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "BButton",
+                    "type": "Button",
+                    "id": "fb144f28-34ac-45f9-9313-d1c87d9282cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CButton",
+                    "type": "Button",
+                    "id": "dfd1980d-935d-401f-81d5-49070c85e1dd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PButton",
+                    "type": "Button",
+                    "id": "18a3ccc2-9eca-497d-b2bb-176d41cee3a8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "83f5a5b1-d037-48e3-bab4-d7d2ea8b3079",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ff926f8-d2f0-4e00-9306-054e13d25390",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c5cf13b-bf63-43a3-9741-0cdddd556b5c",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1df9566b-c54b-4a79-b7a7-fe05d1aafed0",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bc562ab-175f-4780-ad22-9f1d61ee45bc",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
